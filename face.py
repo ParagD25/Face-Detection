@@ -1,6 +1,6 @@
 import cv2
 face_file=cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
-img=cv2.imread("img2.jpg")
+img=cv2.imread("Images/img2.jpg")
 
 face=face_file.detectMultiScale(img,scaleFactor=1.05,minNeighbors=5)
 
